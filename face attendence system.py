@@ -6,7 +6,7 @@ import os
 from datetime import datetime
  
 video_capture = cv2.VideoCapture(0)
-sri_image = face_recognition.load_image_file("photos/sri.png")
+sri_image = face_recognition.load_image_file("sri.jpg")
 sri_encoding = face_recognition.face_encodings(sri_image)[0]
  
 known_face_encoding = [
